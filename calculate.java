@@ -10,6 +10,18 @@ public class calculate
     Double age;
     int fee;
     public void calculator(){
-        
+        if(age < 4){
+            fee = 0;
+        }
+        else if(age >= 4 && age < 7){
+            fee = 400;
+        }
+        else if(age >= 7 && age < 16){
+            fee = 900;
+        }
+        else if(age >= 16){
+            fee = 2000;
+        }
+        System.out.println(fee +"원");
     }
 }
