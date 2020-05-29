@@ -7,5 +7,9 @@
  */
 public class calculate
 {
-    
+    Double age;
+    int fee;
+    public void calculator(){
+        
+    }
 }
