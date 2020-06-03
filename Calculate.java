@@ -12,8 +12,8 @@ public class Calculate
     /**
      * 입장료를 계산하여 반환하는 메소드
      * 
-     * @param  age  나이
-     * @return    return fee 요금
+     * @param  age 파라미터로 나이를 입력받음 
+     * @return 나이를 입력받아 요금은 반환 
      */
     public int calculator(Double age){
         if(age < 4){
