@@ -8,12 +8,15 @@ import java.util.Scanner;
 public class MyApp
 {
     /**
-     * 나이를 입력받고 입장료를 계산하여 반환하는 메소드
+     * 나이를 입력받고 입장료를 출력하는 메소드
      */
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("나이를 입력하세요: ");
         Double age = sc.nextDouble();
         new Calculate();
+        Calculate ca = new Calculate();
+        ca.calculator(age);
+        System.out.println(ca.fee + "원입니다.");
     }
 }
