@@ -12,7 +12,7 @@ public class MyApp
      */
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("나이를 입력하세요: ");
+        System.out.print("나이를 입력하세요: ");
         Double age = sc.nextDouble();
         Calculate ca = new Calculate();
         System.out.println(ca.calculator(age) + "원입니다.");
