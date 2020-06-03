@@ -14,9 +14,7 @@ public class MyApp
         Scanner sc = new Scanner(System.in);
         System.out.println("나이를 입력하세요: ");
         Double age = sc.nextDouble();
-        new Calculate();
         Calculate ca = new Calculate();
-        ca.calculator(age);
-        System.out.println(ca.fee + "원입니다.");
+        System.out.println(ca.calculator(age) + "원입니다.");
     }
 }
