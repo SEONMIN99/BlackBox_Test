@@ -7,9 +7,13 @@
  */
 public class calculate
 {
+    /**
+     * 입장료를 계산하여 반환하는 메소드
+     */
+    
     Double age;
     int fee;
-    public void calculator(){ // 입장료를 계산하여 반환하는 메소드
+    public void calculator(){
         if(age < 4){
             fee = 0;
         }
