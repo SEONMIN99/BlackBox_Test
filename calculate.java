@@ -7,13 +7,12 @@
  */
 public class calculate
 {
+    Double age;
+    int fee;
     /**
      * 입장료를 계산하여 반환하는 메소드
      */
-    
-    Double age;
-    int fee;
-    public void calculator(){
+    public int calculator(Double age){
         if(age < 4){
             fee = 0;
         }
@@ -26,6 +25,6 @@ public class calculate
         else if(age >= 16){
             fee = 2000;
         }
-        System.out.println(fee +"원");
+        return fee;
     }
 }
