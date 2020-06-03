@@ -5,14 +5,15 @@
  * @author (2018315034 정철우, 2018315038 이혜인, 2018315040 김선민 ) 
  * @version (2020.05.29)
  */
-public class calculate
+public class Calculate
 {
     Double age;
     int fee;
     /**
      * 입장료를 계산하여 반환하는 메소드
-     * @param  age  age를 파라미터로 받음
-     * @return    return fee
+     * 
+     * @param  age  나이
+     * @return    return fee 요금
      */
     public int calculator(Double age){
         if(age < 4){
