@@ -7,6 +7,9 @@ import java.util.Scanner;
  */
 public class MyApp
 {
+    /**
+     * 나이를 입력받고 입장료를 계산하여 반환하는 메인메소드
+     */
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("나이를 입력하세요: ");
